@@ -50,13 +50,13 @@ YMaps.jQuery(function () {
     }
 
     //alert(writers.pushkin.moscow)
-    alert(YMaps)
     
     // var myPlacemark = new YMaps.GeoObject({
     //     geometry: {
     //         type: "Point",
     //         coordinates: [55.76, 37.56]
     // }});
+
 
 
 
@@ -70,4 +70,7 @@ YMaps.jQuery(function () {
             balloonContentBody: 'Пушкин'
         }
     });
+    map.geoObjects.add(myGeoObjects); // Размещение геообъектов на карте.
+    
+
 })
